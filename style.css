@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Main */
+main {
+  border: 2px solid #00000;
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.8) 60%
+    ),
+    url(./img/Netf.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+  height: 10vh;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Netflix logo */
+.logo img {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+
+/* Right Header */
+.sign {
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.sign a {
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  padding: 8px 12px;
+  margin-right: 20px;
+}
+
+/* Drop box */
+select {
+  background-color: transparent;
+  color: white;
+  margin-right: 20px;
+}
+
+option {
+  background-color: black;
+}
+
+/* Section 1*/
+.sec1 {
+  height: 90vh;
+  border: 0.2px solid transparent;
+}
+
+.section-1 {
+  margin-top: 12%;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.section-p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Form */
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+}
+
+.email {
+  width: 30%;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: rgba(233, 7, 7, 0.959);
+  color: white;
+  padding: 15mm px 10px;
+  width: 15%;
+  font-size: 1.5em;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+/* End of section 1 */
+
+/* Section 2 */
+.sec2 {
+  height: 70vh;
+  border-top: 10px solid rgb(19, 14, 14);
+  border-bottom: 10px solid rgb(19, 14, 14);
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.text1 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40px;
+  margin-left: 30%;
+}
+
+.para1 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+.tv img {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+/* END OF SECTION 2 */
+
+/* SECTION 3 */
+
+.sec3 {
+  height: 70vh;
+  /* border: 2px solid yellow; */
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 10px solid rgb(19, 14, 14);
+  border-bottom: 10px solid rgb(19, 14, 14);
+  flex: 1;
+}
+
+.phone img {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20%;
+}
+
+.text2 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40px;
+  margin-left: 20%;
+  padding-left: 40px;
+  /* border: 2px solid yellow; */
+}
+
+.para2 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 2%;
+  padding-left: 40px;
+  /* border: 2px solid green; */
+}
+/* END OF SECTION 3 */
+
+/* SECTION 4 */
+.sec4 {
+  height: 70vh;
+  border-top: 10px solid rgb(19, 14, 14);
+  border-bottom: 10px solid rgb(19, 14, 14);
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.text3 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40px;
+  margin-left: 30%;
+}
+
+.para3 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+.tv2 img {
+  width: 65%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+/* END OF SECTION 4 */
+
+/* SECTION 5 */
+.sec5 {
+  height: 70vh;
+  /* border: 2px solid yellow; */
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 10px solid rgb(19, 14, 14);
+  border-bottom: 10px solid rgb(19, 14, 14);
+  flex: 1;
+}
+
+.kids img {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20%;
+}
+
+.text4 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40px;
+  margin-right: 15%;
+  padding-left: 40px;
+  /* border: 2px solid yellow; */
+}
+
+.para4 {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 15%;
+  margin-top: 2%;
+  padding-left: 40px;
+  /* border: 2px solid green; */
+}
+/* END OF SECTION 5 */
+
+/* SECTION 6 */
+.sec6 {
+  height: 140vh;
+  /* border: 2px solid yellow; */
+  background-color: black;
+  border-top: 10px solid rgb(19, 14, 14);
+  border-bottom: 10px solid rgb(19, 14, 14);
+  color: white;
+  text-align: center;
+}
+
+.questions {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.head-text {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding: 15px 10px;
+  width: 50%;
+  display: inline-block;
+  justify-content: center;
+  text-align: left;
+}
+
+.text5 {
+  margin-top: 25px;
+  background-color: rgb(26, 24, 24);
+  padding: 20px 50px;
+}
+
+.text6 {
+  background-color: rgb(26, 24, 24);
+  margin-top: 8px;
+  padding: 20px 50px;
+}
+
+.text7 {
+  background-color: rgb(26, 24, 24);
+  margin-top: 8px;
+  padding: 20px 50px;
+}
+
+.text8 {
+  background-color: rgb(26, 24, 24);
+  margin-top: 8px;
+  padding: 20px 50px;
+}
+
+.text9 {
+  background-color: rgb(26, 24, 24);
+  margin-top: 8px;
+  padding: 20px 50px;
+}
+
+.text10 {
+  background-color: rgb(26, 24, 24);
+  margin-top: 8px;
+  padding: 20px 50px;
+}
+
+/* FOOTER */
+
+.text11,
+.a1 {
+  text-decoration: none;
+  /* height: 50vh; */
+  /* border: 2px solid yellow; */
+  background-color: black;
+  color: rgb(90, 80, 80);
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 85px;
+  padding-top: 20px;
+}
+
+.a1:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  height: 30vh;
+  /* border: 2px solid yellow; */
+  background-color: black;
+  /* border-bottom: 10px solid rgb(19, 14, 14); */
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.faq .a2 {
+  text-decoration: none;
+  color: rgb(90, 80, 80);
+  /* margin-top: 20px; */
+}
+
+.a2:hover {
+  text-decoration: underline;
+}
+
+.text12 {
+  margin-top: 20px;
+  color: rgb(90, 80, 80);
+}

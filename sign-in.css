@@ -1,0 +1,219 @@
+/* SIGN IN REG */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid #00000;
+  height: 170vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.7) 70%
+    ),
+    url(./img/Netf.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+
+.logo img {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  padding-top: 15px;
+  padding-right: 10%;
+}
+
+section {
+  /* border: 2px solid green; */
+  background-color: rgba(0, 0, 0, 0.767);
+  border-radius: 2%;
+  width: 33%;
+  height: 110vh;
+  margin: 30px auto;
+}
+
+h1 {
+  color: white;
+  padding: 70px 0 0 70px;
+  font-size: 30px;
+}
+
+.form {
+  margin-top: 6%;
+}
+
+input {
+  /* border: 2px solid blue; */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 70%;
+  padding: 18px 10px;
+  border-radius: 5px;
+  background-color: rgb(56, 50, 50);
+  border: none;
+  color: white;
+}
+
+.sign-in {
+  margin-top: 2.5rem;
+  background-color: rgb(235, 14, 14);
+  color: white;
+  font-weight: bold;
+}
+
+.remember {
+  display: inline-flex;
+  margin-left: 30px;
+  color: white;
+}
+
+.check {
+  display: inline-flex;
+  justify-content: flex-end;
+  /* margin-left: 2rem; */
+  color: white;
+}
+
+label {
+  display: inline-flex;
+  justify-content: flex-start;
+  /* margin-left: 10px; */
+  width: 200px;
+  padding-top: 12px;
+
+  /* padding-right: 2rem; */
+}
+
+.help {
+  margin-top: 13px;
+  color: white;
+  width: 200px;
+  margin-left: 70px;
+}
+
+.help a {
+  color: rgb(61, 57, 57);
+  text-decoration: none;
+}
+
+.help:hover {
+  text-decoration: underline;
+}
+
+.fb {
+  margin-top: 20px;
+  margin-left: 65px;
+  font-size: 15px;
+}
+
+.fb img {
+  width: 15px;
+  margin-top: 2px;
+}
+
+.fb a {
+  text-decoration: none;
+  color: rgb(121, 107, 107);
+  padding-bottom: 5px;
+}
+
+.fb:hover {
+  text-decoration: underline;
+}
+
+.sign-up {
+  margin-left: 65px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.sign-up p {
+  color: rgb(102, 93, 93);
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: white;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
+
+.captcha {
+  width: 75%;
+  margin-top: 20px;
+  margin-left: 65px;
+  font-size: 15px;
+}
+.captcha p {
+  color: rgb(102, 93, 93);
+}
+
+.captcha a {
+  text-decoration: none;
+  color: blue;
+}
+
+.captcha:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+.text11,
+.a1 {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: rgb(110, 97, 97);
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5.8rem;
+  padding-top: 20px;
+}
+
+.a1:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  height: 20vh;
+  /* border: 2px solid yellow; */
+  background-color: rgba(0, 0, 0, 0.623);
+  /* border-bottom: 10px solid rgb(19, 14, 14); */
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.faq .a2 {
+  text-decoration: none;
+  color: rgb(109, 95, 95);
+  /* margin-top: 20px; */
+}
+
+.a2:hover {
+  text-decoration: underline;
+}
+
+.text12 {
+  margin-top: 20px;
+  color: rgb(90, 80, 80);
+}
